@@ -1,0 +1,44 @@
+body {
+    max-width: 1440px;
+    font-weight: 400;
+    background-color: hsl(257, 40%, 49%);
+
+}
+
+body:before {
+    content: '';
+    background-image: url(../../src/images/bg-desktop.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+}
+
+.container .conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* flex-wrap: wrap; */
+}
+
+.container .informacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
