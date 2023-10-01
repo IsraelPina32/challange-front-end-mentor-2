@@ -1,0 +1,36 @@
+@media(max-width: 768px){
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .container .conteudo-principal .imagem-principal{
+        width: 450px;
+        height: 400px;
+    }
+
+    .contato {
+        margin-right: 15px;
+    }
+}
+
+@media(max-width: 425px){
+    .container .conteudo-principal {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container .conteudo-principal .imagem-principal {
+        width: 340px;
+        height: 250px;
+        margin: 20px;
+    }
+
+    .contato {
+        justify-content: center;
+    }
+}
