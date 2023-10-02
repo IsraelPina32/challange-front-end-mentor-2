@@ -50,9 +50,9 @@
     }
 
     .container .conteudo-principal .imagem-principal {
-        width: 250px;
+        width: 300px;
         height: 250px;
-        margin: 25px;
+        margin: 25px;  
     }
 
     .container .informacoes {
